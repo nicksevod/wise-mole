@@ -1,0 +1,72 @@
+body {
+  background-color: black;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+}
+
+button {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Press Start 2P', cursive;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  .info {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+  }
+
+  .field {
+    width: 684px;
+    margin: 30px;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
+    button {
+      background: black;
+      border: 2px solid #e0e0e0;
+      padding: 5px 10px;
+      text-rendering: auto;
+      color: #e0e0e0;
+      text-align: center;
+      margin: 0em;
+      cursor: pointer;
+
+      &:active {
+        background: #171717;
+      }
+    }
+  }
+}
+
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+
+  td {
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    margin: 0;
+    display: table-cell;
+
+    img {
+      vertical-align: middle;
+    }
+  }
+}
